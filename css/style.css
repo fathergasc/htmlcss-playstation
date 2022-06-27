@@ -62,6 +62,7 @@ header ul {
 
 .nav-link {
     color: black;
+    padding-inline: 0.5rem;
 }
 
 .nav-link:hover {
