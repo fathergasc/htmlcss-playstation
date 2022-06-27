@@ -30,10 +30,12 @@ a:hover {
 
 .ms_blue_btn {
     background-color: #2d64e6;
+    color: white;
 }
 
 .ms_blue_btn:hover {
-    background-color: #3b6ee6;
+    background-color: #5680e4;
+    color: white;
 }
 
 .container {
