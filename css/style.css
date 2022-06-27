@@ -12,21 +12,39 @@ ul {
     background-color: black;
     color: white;
     max-width: 200px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.ms_big-btn {
+    padding: 0.5rem 1.2rem;
 }
 
 .ms_red_btn {
     background-color: #cd3d0f;
-    color: white;
+}
+
+.ms_blue_btn {
+    background-color: #2d64e6;
+}
+
+.ms_blue_btn:hover {
+    background-color: #3b6ee6;
 }
 
 .container {
     max-width: 95%;
 }
 
-/* HEADER */
-*{
-    /* border: 1px dotted black; */
+.ms_text-blue {
+    color: #0071ce;
 }
+
+/* HEADER */
 
 header {
     position: fixed;
@@ -96,7 +114,6 @@ header ul {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 
 #returnal-logo {
@@ -104,7 +121,6 @@ header ul {
 }
 
 #jumbo-card {
-    position: absolute;
     bottom: 10%;
 }
 
@@ -128,11 +144,29 @@ header ul {
     border: 3px solid white;
 }
 
-/* debug rules */
 
-.debug #jumbo {
-    min-height: 500px;
+/* HARDWARE */
+
+#hardware h6 {
+    margin-bottom: 0px;
 }
+
+.ms_opaque-wrap {
+    opacity: 0.6;
+}
+
+.ms_blue-border-bot {
+    border-bottom: 2px solid #0060c8;
+}
+
+.col-4.col-md.ms_opaque-wrap:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+/* MEDIA QUERIES */
 
 @media screen and (min-width:768px) {
 
@@ -152,3 +186,19 @@ header ul {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+/* debug rules */
+
+.debug #jumbo {
+    min-height: 500px;
+}
+
