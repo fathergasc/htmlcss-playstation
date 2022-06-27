@@ -112,6 +112,22 @@ header ul {
     width: 120px;
 }
 
+
+/* LISTING */
+
+.img_wrap {
+    border: 3px solid #0060c8;
+    width: 100%;
+}
+
+.img_wrap:hover {
+    transform: translate(0, -1rem);
+}
+
+.img_wrap.invisible_border {
+    border: 3px solid white;
+}
+
 /* debug rules */
 
 .debug #jumbo {
@@ -125,7 +141,7 @@ header ul {
     }
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1200px) {
 
     .debug #jumbo {
         height: 80vh;
