@@ -120,10 +120,6 @@ header ul {
     width: 200px;
 }
 
-#jumbo-card {
-    bottom: 10%;
-}
-
 #buy_now {
     width: 120px;
 }
@@ -165,6 +161,17 @@ header ul {
 }
 
 
+/* PAGE BANNER */
+
+#hero-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
 
 /* MEDIA QUERIES */
 
@@ -183,6 +190,10 @@ header ul {
 
     #returnal-logo {
         width: 400px;
+    }
+
+    #hero-card img {
+        width: 300px;
     }
 
 }
