@@ -1,0 +1,77 @@
+/* COMMON RULES */
+
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.ms_button {
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+/* HEADER */
+*{
+    /* border: 1px dotted black; */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 999;
+    height: 80px;
+    background-color: white;
+    width: 100%;
+}
+
+#header_top {
+    background-color: black;
+    height: 30px;
+}
+
+#header_top img{
+    width: 50px;
+}
+
+header img {
+    height: 100%;
+}
+
+#header_bot {
+    background-color: red;
+}
+
+header ul {
+    align-items: center;
+}
+
+#nav_list-icon {
+    border: 1px solid lightgrey;
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+    color: lightgrey;
+}
+
+#nav_btn {
+    color: white;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.font-size-12px {
+    font-size: 12px;
+}
+
+.nav-item i {
+    padding-left: 0.3rem;
+}
