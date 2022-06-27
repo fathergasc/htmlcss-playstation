@@ -11,6 +11,16 @@ ul {
     border-radius: 20px;
     background-color: black;
     color: white;
+    max-width: 200px;
+}
+
+.ms_red_btn {
+    background-color: #cd3d0f;
+    color: white;
+}
+
+.container {
+    max-width: 95%;
 }
 
 /* HEADER */
@@ -37,12 +47,12 @@ header {
     width: 50px;
 }
 
-header img {
+#header_bot img {
     height: 100%;
 }
 
 #header_bot {
-    background-color: red;
+    height: 20px;
 }
 
 header ul {
@@ -62,7 +72,7 @@ header ul {
 
 .nav-link {
     color: black;
-    padding-inline: 0.5rem;
+    padding: 0 0.5rem ;
 }
 
 .nav-link:hover {
@@ -75,4 +85,54 @@ header ul {
 
 .nav-item i {
     padding-left: 0.3rem;
+}
+
+
+
+/* JUMBO */
+
+#jumbo {
+    margin-top: 80px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#returnal-logo {
+    width: 200px;
+}
+
+#jumbo-card {
+    position: absolute;
+    bottom: 10%;
+}
+
+#buy_now {
+    width: 120px;
+}
+
+/* debug rules */
+
+.debug #jumbo {
+    min-height: 500px;
+}
+
+@media screen and (min-width:768px) {
+
+    #returnal-logo {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+
+    .debug #jumbo {
+        height: 80vh;
+    }
+
+    #returnal-logo {
+        width: 400px;
+    }
+
 }
