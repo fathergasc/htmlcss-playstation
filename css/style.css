@@ -38,6 +38,11 @@ a:hover {
     color: white;
 }
 
+.ms_white_btn {
+    background-color: white;
+    color: black;
+}
+
 .ms_gray_btn {
     background-color: #d9dadc;
     color: #0060c8;
@@ -195,6 +200,18 @@ header ul {
 
 #monthly_img {
     width: 100%;
+}
+
+
+/* PSNOW */
+
+#psnow {
+    background-color: #161c3b;
+}
+
+#psnow-logo {
+    width: 30%;
+    min-width: 300px;
 }
 
 
