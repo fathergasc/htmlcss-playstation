@@ -1,5 +1,9 @@
 /* COMMON RULES */
 
+html {
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -12,6 +16,10 @@ ul {
     background-color: black;
     color: white;
     max-width: 200px;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -215,6 +223,25 @@ header ul {
 }
 
 
+/* FOLLOW */
+
+
+/* FOOTER */
+
+footer {
+    background-color: #00439c;
+    padding: 6rem 0;
+}
+
+#globe {
+    width: 15px;
+}
+
+#sie-logo {
+    max-width: 170px;
+}
+
+
 
 
 
@@ -225,6 +252,7 @@ header ul {
     #returnal-logo {
         width: 300px;
     }
+
 }
 
 @media screen and (min-width:1200px) {
