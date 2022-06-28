@@ -38,6 +38,11 @@ a:hover {
     color: white;
 }
 
+.ms_gray_btn {
+    background-color: #d9dadc;
+    color: #0060c8;
+}
+
 .container {
     max-width: 95%;
 }
@@ -177,6 +182,22 @@ header ul {
 }
 
 
+/* PSPLUS */
+
+#psplus {
+    background-color: #bebcbb;
+}
+
+#psplus-logo {
+    width: 30%;
+    min-width: 300px;
+}
+
+#monthly_img {
+    width: 100%;
+}
+
+
 
 
 
@@ -192,7 +213,7 @@ header ul {
 @media screen and (min-width:1200px) {
 
     .debug #jumbo {
-        height: 80vh;
+        height: 78vh;
     }
 
     #returnal-logo {
