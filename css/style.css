@@ -1,7 +1,7 @@
 /* COMMON RULES */
 
 html {
-    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 ul {
@@ -180,7 +180,7 @@ header ul {
     width: 200px;
 }
 
-#buy_now {
+.buy_now {
     width: 130px;
 }
 
@@ -237,6 +237,10 @@ header ul {
     background-position: center;
 }
 
+#ittakestwo-logo {
+    width: 200px;
+}
+
 
 /* NEW RELEASES */
 
@@ -253,11 +257,10 @@ header ul {
 }
 
 #psplus-logo {
-    width: 30%;
-    min-width: 300px;
+    width: 50%;
 }
 
-#monthly_img {
+.monthly_img {
     width: 100%;
 }
 
@@ -306,6 +309,7 @@ footer {
 
 }
 
+
 @media screen and (min-width:1200px) {
 
     .debug #jumbo {
@@ -318,6 +322,10 @@ footer {
 
     #hero-card img {
         width: 300px;
+    }
+
+    .bigger_txt_lg {
+        font-size: 22px;
     }
 
 }
