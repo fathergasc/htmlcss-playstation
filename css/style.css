@@ -41,6 +41,8 @@ ul {
 }
 
 .ms_red_btn:hover {
+    background-color: #a3310b;
+    outline: 2px solid #a3310b;
     border: 2px solid black;
     box-sizing: border-box;
     color: white;
@@ -54,8 +56,9 @@ ul {
 }
 
 .ms_blue_btn:hover {
+    background-color: #1f53cc;
     border: 2px solid white;
-    outline: 2px solid #2d64e6;
+    outline: 2px solid #1f53cc;
     color: white;
 }
 
